@@ -3,7 +3,7 @@
 
 ## Instalation.
 
-**To install the apilication clone this repository or install release v2.0.0.**
+**To install the apilication clone this repository or install release v2.0.1.**
 
 ### Clone the repository.
 
@@ -14,10 +14,10 @@ cd ~
 git clone https://github.com/VEERT00X/GmailDotTrick.git
 ```
 ```shell
-cd GmailDotTrick//Release//version-0.0.2
+cd GmailDotTrick//Release//version-2.0.1
 ```
 
-### Install Release v2.0.0
+### Install Release v2.0.1
 
 
 ## Run the application.
