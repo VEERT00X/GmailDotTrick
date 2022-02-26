@@ -19,6 +19,7 @@ cd GmailDotTrick//Release//version-2.0.1
 
 ### Install Release v2.0.1
 
+**[Download the release.](https://github.com/VEERT00X/GmailDotTrick/releases/tag/2.1)**
 
 ## Run the application.
 
