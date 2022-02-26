@@ -37,4 +37,4 @@ def Main(email):
             fileWrite.write(EmailString)
             fileWrite.write("@gmail.com")
             fileWrite.write("\n")
-    Main(email=EmailString)
+    Main(email=email)
