@@ -1,4 +1,4 @@
-import sys , essentials
+import sys , essentials , random
 
 """
 Generate Emails strings by adding a '.' in them.
