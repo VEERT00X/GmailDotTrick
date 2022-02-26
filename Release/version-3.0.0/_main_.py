@@ -11,4 +11,5 @@ if "@gmail.com" in Email:
     sys.exit(1)
 else:
        
-    print(essentials.GenerateEmail(email=Email))
+   essentials.Main(email=Email)
+    

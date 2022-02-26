@@ -23,3 +23,18 @@ def GenerateEmail(email):
     Adress.insert(RandomNumberGenerator,".")
     Adress = listToString(list=Adress)
     return Adress
+
+def Main(email):
+    EmailString = (GenerateEmail(email=email))
+
+    with open ("output.env", "r") as fileRead:
+        data=fileRead.read()
+    
+    if EmailString in data:
+        print("Email already generated.")
+    else:
+        with open ("output.env", 'a') as fileWrite:
+            fileWrite.write(EmailString)
+            fileWrite.write("@gmail.com")
+            fileWrite.write("\n")
+    Main(email=EmailString)
