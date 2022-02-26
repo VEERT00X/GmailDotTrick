@@ -1,4 +1,4 @@
-import sys , essentials
+import sys , essentials , random
 
 """
 Generate Emails strings by adding a '.' in them.
@@ -11,4 +11,5 @@ if "@gmail.com" in Email:
     sys.exit(1)
 else:
        
-    print(essentials.GenerateEmail(email=Email))
+   essentials.Main(email=Email)
+    
